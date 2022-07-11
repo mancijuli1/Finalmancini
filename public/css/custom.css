@@ -1,0 +1,120 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  color: rgba(81, 79, 79, 0.856);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(226, 226, 226, 0.856);
+  min-height: fit-content;
+}
+
+
+nav {
+  background-color: rgba(226, 226, 226, 0.856);
+  
+}
+
+
+.logoChico{
+  flex-direction: row;
+  position: relative;
+  height: fit-content;
+ width:12vh;
+  padding-top:0.5em;
+}
+
+.titulo1 {
+flex-direction: column;
+text-align: center;
+font-size: 2.0vw;
+font-weight: 700;
+color: #139ca1;
+margin-left: 20rem;
+}
+
+.titulo2 {
+flex-direction: column;
+text-align: center;
+font-size: 1vw;
+margin-top: 0.8em;
+margin-left: 0.5em;
+}
+
+.contenidoHome{
+margin-bottom: 1rem;
+padding: 0%;
+}
+.vision {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+margin: 0.5rem 8rem 0.2rem 8rem;
+padding: 1em 0.5em 0.2em 0.5em;
+}
+.btn-verde{
+color: rgb(248, 248, 248);
+background-color:#139ca1;
+border-color:#139ca1;
+}
+.bordeImg{
+border-radius: 0.7rem;
+}
+.titulo3{
+color: #139ca1;
+font-weight: 580;
+}
+
+.titulo4{
+font-size: xx-small;
+}
+
+/* -----------------FOOTER */
+.footer-content{
+  padding: 2rem 2rem 0.5rem 2rem;
+  background-color:rgba(226, 226, 226, 0.856);
+  }
+  
+  .footer-links{
+  font-size: x-small;
+  color: rgba(81, 79, 79, 0.856) ;
+  text-decoration:none;
+  }
+
+
+.error404{
+Display: flex;
+flex-direction: row;
+position: relative;
+height: fit-content;
+width: 50vh;
+}
+
+.izquierda{
+    margin-top: 2rem;
+}
+.derecha{
+padding-right:0;
+} 
+
+.img-secundaria{
+  height: 100vh;
+  width: 100%;
+}
+.lista{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.item{
+  margin-bottom: 0.3rem
+  ;
+}
+.btn-contacto{
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  
+}

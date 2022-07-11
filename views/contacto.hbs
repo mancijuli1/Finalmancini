@@ -1,0 +1,39 @@
+{{>nav}}
+{{>header}}
+
+<body>
+    
+    <Section class="container p-4">
+        <h1>Contactate con nosotros</h1>
+        <form action= "/enviar-email" method="post" class="p-4">
+            <div class="form-group">
+    <label for="nombre" class="titulo3">Nombre</label>
+       <input type="text" class="form-control" id="" name="nombre" placeholder="Ingresa tu nombre aqui">
+  </div>
+  <div class="form-group">
+    <label for="apellido" class="titulo3">Apellido</label>
+    <input type="text" class="form-control" id="" name="apellido" placeholder="Ingresa tu apellido aqui">
+  </div>
+  <div class="mb-3">
+  <label for="email" class="form-label titulo3">Mail</label>
+  <input type="email" class="form-control" id="" name="email" placeholder="Ingresa tu mail aqui" aria-describedby="emailHelp">
+  <div id="emailHelp" class="form-text titulo4">No compartiremos tu direccion de mail con nadie</div>
+  </div>
+            <!-- <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div> -->
+ <div class="mb-3">
+<label for="mensaje" class="form-label">Contanos cual es el servicio en el que estas interesado</label>
+<textarea class="form-control" id="" rows="3" name="mensaje"></textarea>
+</div>
+<div class="mb-3 form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-label" for="exampleCheck1">Suscribirme al newsletter</label>
+</div>
+<button type="submit" class="btn-verde">Enviar</button>
+</form>
+</Section>
+
+
+{{>footer}}
